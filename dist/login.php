@@ -24,7 +24,7 @@
                     col-12">
 
             <!-- Brand -->
-            <a class="navbar-brand" href="#">Hoop Squad</a>
+            <a class="navbar-brand" href="/index.html">Hoop Squad</a>
             <!-- Responsive Button for the smaller menu -->
             <button class="navbar-toggler" type="button"
                     data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -61,6 +61,18 @@
         </nav>
 
     </div>
+
+    <hgroup>
+        <h1>Login</h1>
+        <form name="regform" id="myForm" method="POST">
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email"><br><br>
+            <label for="pword">Password:</label><br>
+            <input type="password" id="pword" name="pword"><br><br>
+            <a href="register.php">Don't have an account? Create an account here</a><br><br>
+            <input type="submit" value="Login"><br>
+        </form>
+    </hgroup>
 
     <footer class="footer page-footer font-small ">
         <div class="container">
