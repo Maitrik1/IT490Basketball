@@ -24,7 +24,7 @@
                     col-12">
 
             <!-- Brand -->
-            <a class="navbar-brand" href="/index.html">Hoop Squad</a>
+            <a class="navbar-brand" href="/dist/index.html">Hoop Squad</a>
             <!-- Responsive Button for the smaller menu -->
             <button class="navbar-toggler" type="button"
                     data-toggle="collapse" data-target="#collapsibleNavbar">
