@@ -1,6 +1,6 @@
 <?php
     $host = "localhost";
-    $db = "Hoop Squad";
+    $dbdatabase = "Hoop Squad";
     $user = "root";
     $pass = "admin";
 
