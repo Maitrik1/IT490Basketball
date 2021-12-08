@@ -8,7 +8,7 @@ try {
 
     if($pdo){
         echo "Connected to the database successfully";
-    }
+
 } catch (PDOException $e) {
     echo $e->getMessage();
 }
