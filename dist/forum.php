@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link href="/dist/main.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
 </head>
 <body>
 <div class="container-fluid">
@@ -24,7 +24,7 @@
                     col-12">
 
             <!-- Brand -->
-            <a class="navbar-brand" href="/dist/index.html">Hoop Squad</a>
+            <a class="navbar-brand" href="index.html">Hoop Squad</a>
             <!-- Responsive Button for the smaller menu -->
             <button class="navbar-toggler" type="button"
                     data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -44,10 +44,13 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Work Experience</a>
+                        <a class="nav-link" href="players.php">Stats</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Me</a>
+                        <a class="nav-link" href="forum.php">Forums</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.php">Account</a>
                     </li>
                     <li class="nav-item">
                         <input type="text" placeholder="Search..">
@@ -57,7 +60,6 @@
                 </ul>
             </div>
         </nav>
-
     </div>
 
     <footer class="footer page-footer font-small ">
