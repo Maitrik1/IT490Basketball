@@ -61,7 +61,31 @@
             </div>
         </nav>
     </div>
+    <div class="parallax p1" id="section-1">
+        <hgroup>
+            <h1>Reply to post</h1>
+            <form name="replyform" id="replyform" method="POST">
+                <label for="post_id">Enter post id of post to reply to:</label><br>
+                <input type="text" id="post_id" name="post_id"><br><br>
+                <label for="reply_message">message:</label><br>
+                <input type="text" id="reply_message" name="reply_message"><br><br>
+                <input type="submit" value="submit"><br>
+            </form>
+        </hgroup>
+    </div>
 
+    <div class="parallax p1" id="section-1">
+        <hgroup>
+            <h1>New Post</h1>
+            <form name="postform" id="postform" method="POST">
+                <label for="title">title:</label><br>
+                <input type="text" id="title" name="title"><br><br>
+                <label for="message">message:</label><br>
+                <input type="text" id="message" name="message"><br><br>
+                <input type="submit" value="submit"><br>
+            </form>
+        </hgroup>
+    </div>
     <footer class="footer page-footer font-small ">
         <div class="container">
             <div class="row">
