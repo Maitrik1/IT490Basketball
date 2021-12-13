@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8add554a-2b8c-4e4a-a354-ea481c42fd5e" name="Changes" comment="updated index" />
+    <list default="true" id="8add554a-2b8c-4e4a-a354-ea481c42fd5e" name="Changes" comment="idc" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +50,7 @@
       <workItem from="1638982532398" duration="3492000" />
       <workItem from="1639093271587" duration="2163000" />
       <workItem from="1639402910355" duration="1358000" />
-      <workItem from="1639406047845" duration="829000" />
+      <workItem from="1639406047845" duration="1074000" />
     </task>
     <task id="LOCAL-00001" summary="Changed link for Stats">
       <created>1638811344382</created>
@@ -192,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639406373406</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="idc">
+      <created>1639406953449</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1639406953449</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,9 +231,9 @@
     <MESSAGE value="Rough draft for forum.php" />
     <MESSAGE value="Added lorem ipsum to fill out page" />
     <MESSAGE value="added forum.php to nav" />
-    <MESSAGE value="idc" />
     <MESSAGE value="testing image carousel" />
     <MESSAGE value="updated index" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated index" />
+    <MESSAGE value="idc" />
+    <option name="LAST_COMMIT_MESSAGE" value="idc" />
   </component>
 </project>
