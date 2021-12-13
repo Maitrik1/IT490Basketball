@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8add554a-2b8c-4e4a-a354-ea481c42fd5e" name="Changes" comment="Added lorem ipsum to fill out page" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="basketballapi" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="21vAZc8S32veXtz8G6woeiZfBY2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8add554a-2b8c-4e4a-a354-ea481c42fd5e" name="Changes" comment="" />
+      <created>1638811244092</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638811244092</updated>
+      <workItem from="1638811246376" duration="1996000" />
+      <workItem from="1638925809705" duration="809000" />
+      <workItem from="1638982532398" duration="3492000" />
+      <workItem from="1639093271587" duration="2163000" />
+      <workItem from="1639402910355" duration="1358000" />
+    </task>
+    <task id="LOCAL-00001" summary="Changed link for Stats">
+      <created>1638811344382</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638811344382</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updated links for index.html">
+      <created>1638812825696</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1638812825696</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added responsiveness to players.php">
+      <created>1638812857538</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638812857538</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Created sql files for users and forum posts">
+      <created>1638926143104</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638926143104</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Created backend file for configuration">
+      <created>1638926500107</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638926500107</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Created file for backend processes">
+      <created>1638926532399</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1638926532399</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Created file to initiate database">
+      <created>1638926558610</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1638926558610</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Updated config.php">
+      <created>1638983437729</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1638983437729</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Updated config.php">
+      <created>1638983668690</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1638983668690</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Updated init_db.php">
+      <created>1638985365339</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1638985365339</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Updated init_db.php">
+      <created>1638985977413</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1638985977413</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Updated init_db.php">
+      <created>1638986000031</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1638986000031</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Updated forum.php">
+      <created>1639093853409</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1639093853409</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added links to forums page">
+      <created>1639094226332</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1639094226332</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Rough draft for forum.php">
+      <created>1639095461496</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1639095461496</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added lorem ipsum to fill out page">
+      <created>1639403879567</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1639403879567</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changed link for Stats" />
+    <MESSAGE value="Updated links for index.html" />
+    <MESSAGE value="Added responsiveness to players.php" />
+    <MESSAGE value="Created sql files for users and forum posts" />
+    <MESSAGE value="Created backend file for configuration" />
+    <MESSAGE value="Created file for backend processes" />
+    <MESSAGE value="Created file to initiate database" />
+    <MESSAGE value="Updated config.php" />
+    <MESSAGE value="Updated init_db.php" />
+    <MESSAGE value="Updated forum.php" />
+    <MESSAGE value="Added links to forums page" />
+    <MESSAGE value="Rough draft for forum.php" />
+    <MESSAGE value="Added lorem ipsum to fill out page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added lorem ipsum to fill out page" />
+  </component>
+</project>
