@@ -1,4 +1,4 @@
-<php
+<?php
 
 session_start();
 
@@ -48,6 +48,9 @@ session_start();
           <li class="nav-item">
             <a class="nav-link" href="players.php">Stats</a>
           </li>
+            <li class="nav-item">
+                <a class="nav-link" href="forum.php">Forums</a>
+            </li>
           <li class="nav-item">
             <a class="nav-link" href="login.php">Account</a>
           </li>
