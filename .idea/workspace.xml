@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8add554a-2b8c-4e4a-a354-ea481c42fd5e" name="Changes" comment="idc">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8add554a-2b8c-4e4a-a354-ea481c42fd5e" name="Changes" comment="testing image carousel">
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +52,7 @@
       <workItem from="1638982532398" duration="3492000" />
       <workItem from="1639093271587" duration="2163000" />
       <workItem from="1639402910355" duration="1358000" />
+      <workItem from="1639406047845" duration="302000" />
     </task>
     <task id="LOCAL-00001" summary="Changed link for Stats">
       <created>1638811344382</created>
@@ -180,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639405313949</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="testing image carousel">
+      <created>1639406138694</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1639406138694</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +220,7 @@
     <MESSAGE value="Added lorem ipsum to fill out page" />
     <MESSAGE value="added forum.php to nav" />
     <MESSAGE value="idc" />
-    <option name="LAST_COMMIT_MESSAGE" value="idc" />
+    <MESSAGE value="testing image carousel" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing image carousel" />
   </component>
 </project>
