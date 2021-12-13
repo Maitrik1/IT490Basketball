@@ -1,4 +1,4 @@
-?<php
+<php
 
 session_start();
 
@@ -51,20 +51,64 @@ session_start();
           <li class="nav-item">
             <a class="nav-link" href="login.php">Account</a>
           </li>
-          <li class="nav-item">
-            <input type="text" placeholder="Search..">
-            <button type="submit">Search</button>
-	  </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="logout.php">Logout</a>
-                    </li>
-
-
+            <li class="nav-item">
+                <a class="nav-link" href="logout.php">Logout</a>
+            </li>
         </ul>
       </div>
     </nav>
   </div>
+    <div class="col-sm-12  text-center">
+        <section>
+            <h1><b>ABOUT Hoop Squad</b></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rhoncus dui quis lobortis commodo. Quisque ac cursus enim.
+                Proin non nisl sem. Donec ipsum erat, dignissim maximus risus sit amet, efficitur aliquet purus. Nulla maximus ligula non
+                ligula dictum mattis. In a enim cursus, mollis tortor eu, eleifend ipsum. Phasellus aliquet rhoncus pretium. Proin hendrerit
+                nulla mauris, aliquet posuere nunc rhoncus ut. Vivamus laoreet fermentum neque sit amet iaculis. Sed ex est, auctor id v
+                ulputate et, laoreet at felis. Fusce id nibh quam. Curabitur vel elementum magna.
 
+                Nullam et dui sed lectus iaculis scelerisque ac eget velit. Mauris pharetra malesuada nunc feugiat dictum.
+                Duis mattis, quam id tempor porttitor, quam ante cursus dolor, id porttitor mauris sapien sit amet dui. Pellentesque
+                placerat nunc sit amet justo rutrum euismod. Aliquam imperdiet cursus libero sed luctus. Mauris ullamcorper magna sed augue
+                pellentesque, id aliquet eros dictum. Curabitur condimentum elit turpis, et malesuada justo convallis ut. Duis dapibus nisl
+                vel neque vestibulum, et mattis nibh vestibulum. Phasellus eleifend eget libero et consequat. Aliquam eget
+                porttitor enim, et dignissim diam. Pellentesque interdum lorem eget ultrices maximus. </p>
+        </section>
+    </div>
+    <div class="col-sm-6  text-center">
+        <section>
+            <h1><b>ABOUT Hoop Squad</b></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rhoncus dui quis lobortis commodo. Quisque ac cursus enim.
+                Proin non nisl sem. Donec ipsum erat, dignissim maximus risus sit amet, efficitur aliquet purus. Nulla maximus ligula non
+                ligula dictum mattis. In a enim cursus, mollis tortor eu, eleifend ipsum. Phasellus aliquet rhoncus pretium. Proin hendrerit
+                nulla mauris, aliquet posuere nunc rhoncus ut. Vivamus laoreet fermentum neque sit amet iaculis. Sed ex est, auctor id v
+                ulputate et, laoreet at felis. Fusce id nibh quam. Curabitur vel elementum magna.
+
+                Nullam et dui sed lectus iaculis scelerisque ac eget velit. Mauris pharetra malesuada nunc feugiat dictum.
+                Duis mattis, quam id tempor porttitor, quam ante cursus dolor, id porttitor mauris sapien sit amet dui. Pellentesque
+                placerat nunc sit amet justo rutrum euismod. Aliquam imperdiet cursus libero sed luctus. Mauris ullamcorper magna sed augue
+                pellentesque, id aliquet eros dictum. Curabitur condimentum elit turpis, et malesuada justo convallis ut. Duis dapibus nisl
+                vel neque vestibulum, et mattis nibh vestibulum. Phasellus eleifend eget libero et consequat. Aliquam eget
+                porttitor enim, et dignissim diam. Pellentesque interdum lorem eget ultrices maximus. </p>
+        </section>
+    </div>
+    <div class="col-sm-6  text-center">
+        <section>
+            <h1><b>ABOUT Hoop Squad</b></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rhoncus dui quis lobortis commodo. Quisque ac cursus enim.
+                Proin non nisl sem. Donec ipsum erat, dignissim maximus risus sit amet, efficitur aliquet purus. Nulla maximus ligula non
+                ligula dictum mattis. In a enim cursus, mollis tortor eu, eleifend ipsum. Phasellus aliquet rhoncus pretium. Proin hendrerit
+                nulla mauris, aliquet posuere nunc rhoncus ut. Vivamus laoreet fermentum neque sit amet iaculis. Sed ex est, auctor id v
+                ulputate et, laoreet at felis. Fusce id nibh quam. Curabitur vel elementum magna.
+
+                Nullam et dui sed lectus iaculis scelerisque ac eget velit. Mauris pharetra malesuada nunc feugiat dictum.
+                Duis mattis, quam id tempor porttitor, quam ante cursus dolor, id porttitor mauris sapien sit amet dui. Pellentesque
+                placerat nunc sit amet justo rutrum euismod. Aliquam imperdiet cursus libero sed luctus. Mauris ullamcorper magna sed augue
+                pellentesque, id aliquet eros dictum. Curabitur condimentum elit turpis, et malesuada justo convallis ut. Duis dapibus nisl
+                vel neque vestibulum, et mattis nibh vestibulum. Phasellus eleifend eget libero et consequat. Aliquam eget
+                porttitor enim, et dignissim diam. Pellentesque interdum lorem eget ultrices maximus. </p>
+        </section>
+    </div>
   <footer class="footer page-footer font-small ">
     <div class="container">
       <div class="row">
