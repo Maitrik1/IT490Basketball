@@ -6,6 +6,8 @@ if (mysqli_connect_errno())
     exit();
 }
 mysqli_select_db( $db, $project );
+
+
 ?>
 <html lang="en">
 <head>
