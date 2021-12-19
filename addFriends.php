@@ -20,7 +20,7 @@ if (isset($_GET['id'])) {
     try {
         $client = new rabbitMQClient("testRabbitMQ.ini", "frontbackcomms");
         $request = array();
-        $request['type'] = "show_friends";
+        $request['type'] = "create_friends";
         $request['session_id'] = $_COOKIE['id'];
         $request['friend_id'] = $_GET['id']; // getting id by get method
 
@@ -114,17 +114,7 @@ try {
             </tbody>
             </thead>
         </table>
-        <div class="d-flex justify-content-center">
-
-            <nav aria-label="Page navigation example">
-                <ul class="pagination">
-
-
-
-
-                </ul>
-            </nav>
-        </div>
+     
 
 
 
