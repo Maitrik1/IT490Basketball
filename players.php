@@ -78,17 +78,14 @@ if (isset($_GET['page'])) {
                         <a class="nav-link" href="players.php">Stats</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="forum.php">Forums</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="login.php">Account</a>
                     </li>
                     <li class="nav-item">
-                        <input type="text" placeholder="Search..">
-                        <button type="submit">Search</button>
-		    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="logout.php">Logout</a>
                     </li>
-
-
                 </ul>
             </div>
         </nav>
