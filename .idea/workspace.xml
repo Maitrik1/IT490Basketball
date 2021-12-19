@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8add554a-2b8c-4e4a-a354-ea481c42fd5e" name="Changes" comment="updated players.php">
-      <change afterPath="$PROJECT_DIR$/account.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum.php" afterDir="false" />
-    </list>
+    <list default="true" id="8add554a-2b8c-4e4a-a354-ea481c42fd5e" name="Changes" comment="forums" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
