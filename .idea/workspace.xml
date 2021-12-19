@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8add554a-2b8c-4e4a-a354-ea481c42fd5e" name="Changes" comment="idc">
-      <change beforePath="$PROJECT_DIR$/players.php" beforeDir="false" afterPath="$PROJECT_DIR$/players.php" afterDir="false" />
+    <list default="true" id="8add554a-2b8c-4e4a-a354-ea481c42fd5e" name="Changes" comment="updated players.php">
+      <change afterPath="$PROJECT_DIR$/account.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +18,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="basketballapi" />
+        <entry key="$PROJECT_DIR$" value="frontend" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -201,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639406953449</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="updated players.php">
+      <created>1639946668948</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1639946668948</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +245,7 @@
     <MESSAGE value="testing image carousel" />
     <MESSAGE value="updated index" />
     <MESSAGE value="idc" />
-    <option name="LAST_COMMIT_MESSAGE" value="idc" />
+    <MESSAGE value="updated players.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated players.php" />
   </component>
 </project>
