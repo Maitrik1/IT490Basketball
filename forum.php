@@ -88,7 +88,7 @@ mysqli_close($db);
         </section>
     </div>
 
-    <div class="col-sm-6" id="section-1">
+    <div class="col-sm-12" id="section-1">
        <h2><a href="new_post.php" class="button">Create New Post</a><h2><br><br><br>
     </div>
 
@@ -97,7 +97,7 @@ mysqli_close($db);
         <br><br><br>
     </div>
 
-    <div class="col-sm-12">
+    <div class="col-sm-7">
         <div class="row">
         <?php foreach ($posts as $post){ ?>
             <div class="col s6 md12">
