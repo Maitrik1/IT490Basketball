@@ -7,6 +7,20 @@ if (mysqli_connect_errno())
 }
 mysqli_select_db( $db, $project );
 
+//write query for all posts
+$sql = 'SELECT title, fname, lname, post_id, message FROM forum';
+
+//make the query and get posts
+$result = mysqli_query($db, $sql);
+
+//fetch the rows as an array
+$posts = mysqli_fetch_all($result, MYSQLI_ASSOC);
+
+//free results from memory
+mysqli_free_result($result);
+
+//close connection
+mysqli_close($db);
 
 ?>
 <html lang="en">
@@ -67,7 +81,14 @@ mysqli_select_db( $db, $project );
             </div>
         </nav>
     </div>
-    <div class="col-sm-4" id="section-1">
+
+    <div class="col-sm-12  text-center">
+        <section>
+            <h1><b>Forums</b></h1>
+        </section>
+    </div>
+
+    <div class="col-sm-6" id="section-1">
         <hgroup>
             <h1>New Post</h1>
             <form name="postform" id="postform" method="POST">
@@ -80,7 +101,7 @@ mysqli_select_db( $db, $project );
         </hgroup>
     </div>
 
-    <div class="col-sm-4" id="section-1">
+    <div class="col-sm-6" id="section-1">
         <hgroup>
             <h1>Reply to post</h1>
             <form name="replyform" id="replyform" method="POST">
@@ -90,9 +111,25 @@ mysqli_select_db( $db, $project );
                 <textarea rows="5" cols="20"></textarea><br><br>
                 <input type="submit" value="submit"><br>
             </form>
-        </hgroup>
+        </hgroup><br><br><br>
     </div>
 
+    <div class="container">
+        <div class="row">
+        <?php foreach ($posts as $post){ ?>
+            <div class="col s6 md12">
+                <div class="card z-depth-0">
+                    <div class="card-content center">
+                        <h3><?php echo htmlspecialchars($post["title"]);?></h3>
+                        <h5>Post created by: <?php echo htmlspecialchars($post["fname"]) . " " . htmlspecialchars($post["lname"]);?></h5>
+                        <h6>Post ID: <?php echo htmlspecialchars($post["post_id"]);?></h6>
+                        <h6><?php echo htmlspecialchars($post["message"]);?></h6>
+                    </div>
+                </div>
+            </div>
+        <?php } ?>
+        </div>
+    </div>
 
     <footer class="footer page-footer font-small ">
         <div class="container">
