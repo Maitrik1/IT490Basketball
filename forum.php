@@ -120,7 +120,7 @@ mysqli_close($db);
             <div class="col s6 md12">
                 <div class="card z-depth-0">
                     <div class="card-content center">
-                        <h3><?php echo htmlspecialchars($post["title"]);?></h3>
+                        <h3><b><?php echo htmlspecialchars($post["title"]);?></b></h3>
                         <h5>Post created by: <?php echo htmlspecialchars($post["fname"]) . " " . htmlspecialchars($post["lname"]);?></h5>
                         <h6>Post ID: <?php echo htmlspecialchars($post["post_id"]);?></h6>
                         <h6><?php echo htmlspecialchars($post["message"]);?></h6>
