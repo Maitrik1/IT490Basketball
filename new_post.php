@@ -6,7 +6,70 @@ if (mysqli_connect_errno())
     exit();
 }
 mysqli_select_db( $db, $project );
+$fname = $lname = $title = $post_id = $message = '';
+$errors = array('fname' => '', 'lname' => '', 'title' => '', 'post_id' => '', 'message' => '');
 
+if(isset($_POST['submit'])){
+
+    // check first name
+    if(empty($_POST['fname'])){
+        echo 'First name required <br />';
+    } else{
+        echo htmlspecialchars($_POST['fname']) . '<br />';
+    }
+
+    // check last name
+    if(empty($_POST['lname'])){
+        echo 'Last name required <br />';
+    } else{
+        echo htmlspecialchars($_POST['lname']) . '<br />';
+    }
+
+    // check title
+    if(empty($_POST['title'])){
+        echo 'Title required <br />';
+    } else{
+        echo htmlspecialchars($_POST['title']) . '<br />';
+    }
+
+    // check post id
+    if(empty($_POST['post_id'])){
+        echo 'Post ID required<br />';
+    } else{
+        echo htmlspecialchars($_POST['post_id']) . '<br />';
+    }
+
+    // check message
+    if(empty($_POST['message'])){
+        echo 'Message required <br />';
+    } else{
+        echo htmlspecialchars($_POST['message']) . '<br />';
+    }
+
+    if(array_filter($errors)){
+        //echo 'errors in form';
+    } else {
+        // escape sql chars
+        $fname = mysqli_real_escape_string($db, $_POST['fname']);
+        $lname = mysqli_real_escape_string($db, $_POST['lname']);
+        $title = mysqli_real_escape_string($db, $_POST['title']);
+        $post_id = mysqli_real_escape_string($db, $_POST['post_id']);
+        $message = mysqli_real_escape_string($db, $_POST['message']);
+
+        // create sql
+        $sql = "INSERT INTO forum(fname,lname,post_id,title,message) VALUES('$fname','$lname','$post_id','$title','$message')";
+
+        // save to db and check
+        if(mysqli_query($db, $sql)){
+            // success
+            header('Location: forum.php');
+        } else {
+            echo 'query error: '. mysqli_error($db);
+        }
+
+
+    }
+}
 ?>
 <html lang="en">
 <head>
@@ -68,25 +131,23 @@ mysqli_select_db( $db, $project );
     </div>
     <br>
     <br>
-
+    <a href="forum.php" class="button"><--- Back to Forums</a>
     <div class="col-sm-12  text-center">
         <hgroup>
             <h1>Create A New Post</h1>
-            <form class="white" action="" method="POST">
-                <label>First Name:</label><br><br>
-                <input type="text" name="fname">
-                <label>Last Name:</label><br><br>
-                <input type="text" name="lname">
-                <label>Title:</label><br><br>
-                <input type="text" name="title">
-                <label>Create a Post ID:</label><br><br>
-                <input type="text" name="post_id">
+            <form action="new_post.php" method="POST">
+                <label>First Name:</label><br>
+                <input type="text" name="fname"><br><br>
+                <label>Last Name:</label><br>
+                <input type="text" name="lname"><br><br>
+                <label>Title:</label><br>
+                <input type="text" name="title"><br><br>
+                <label>Create a Post ID:</label><br>
+                <input type="text" name="post_id"><br><br>
                 <label>Message:</label><br><br>
                 <textarea name="message" rows="4" cols="50"></textarea><br><br><br>
-                <div class="center">
-                    <input type="submit" value="Submit Post"><br><br><br>
-                </div>
-                <a href="forum.php" class="button">Back to Forums</a>
+                <input type="submit" name="submit" value="Submit Post"><br><br>
+
             </form>
         </hgroup>
     </div>
