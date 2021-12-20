@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8add554a-2b8c-4e4a-a354-ea481c42fd5e" name="Changes" comment="">
+    <list default="true" id="8add554a-2b8c-4e4a-a354-ea481c42fd5e" name="Changes" comment="updated forums page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new_post.php" beforeDir="false" afterPath="$PROJECT_DIR$/new_post.php" afterDir="false" />
     </list>
@@ -231,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640022675992</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="updated forums page">
+      <created>1640025022273</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1640025022273</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +276,7 @@
     <MESSAGE value="updated players.php" />
     <MESSAGE value="forums" />
     <MESSAGE value="db connectivity" />
-    <option name="LAST_COMMIT_MESSAGE" value="db connectivity" />
+    <MESSAGE value="updated forums page" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated forums page" />
   </component>
 </project>

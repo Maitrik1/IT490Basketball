@@ -72,16 +72,20 @@ mysqli_select_db( $db, $project );
     <div class="col-sm-12  text-center">
         <hgroup>
             <h1>Create A New Post</h1>
-            <form name="postform" id="postform" method="POST">
-                <label for="title">first name:</label><br>
-                <input type="text" id="fname" name="title"><br><br>
-                <label for="title">last name:</label><br>
-                <input type="text" id="lname" name="title"><br><br>
-                <label for="title">Title:</label><br>
-                <input type="text" id="title" name="title"><br><br>
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br><br>
-                <input type="submit" value="Submit Post"><br><br><br>
+            <form class="white" action="" method="POST">
+                <label>First Name:</label><br><br>
+                <input type="text" name="fname">
+                <label>Last Name:</label><br><br>
+                <input type="text" name="lname">
+                <label>Title:</label><br><br>
+                <input type="text" name="title">
+                <label>Create a Post ID:</label><br><br>
+                <input type="text" name="post_id">
+                <label>Message:</label><br><br>
+                <textarea name="message" rows="4" cols="50"></textarea><br><br><br>
+                <div class="center">
+                    <input type="submit" value="Submit Post"><br><br><br>
+                </div>
                 <a href="forum.php" class="button">Back to Forums</a>
             </form>
         </hgroup>
