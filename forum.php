@@ -89,32 +89,15 @@ mysqli_close($db);
     </div>
 
     <div class="col-sm-6" id="section-1">
-        <hgroup>
-            <h1>New Post</h1>
-            <form name="postform" id="postform" method="POST">
-                <label for="title">title:</label><br>
-                <input type="text" id="title" name="title"><br><br>
-                <label for="message">message:</label><br>
-                <textarea rows="5" cols="20"></textarea><br><br>
-                <input type="submit" value="submit"><br>
-            </form>
-        </hgroup>
+       <h2><a href="new_post.php" class="button">Create New Post</a><h2><br><br><br>
     </div>
 
     <div class="col-sm-6" id="section-1">
-        <hgroup>
-            <h1>Reply to post</h1>
-            <form name="replyform" id="replyform" method="POST">
-                <label for="post_id">Enter post id of post to reply to:</label><br>
-                <input type="text" id="post_id" name="post_id"><br><br>
-                <label for="reply_message">message:</label><br>
-                <textarea rows="5" cols="20"></textarea><br><br>
-                <input type="submit" value="submit"><br>
-            </form>
-        </hgroup><br><br><br>
+
+        <br><br><br>
     </div>
 
-    <div class="container">
+    <div class="col-sm-12">
         <div class="row">
         <?php foreach ($posts as $post){ ?>
             <div class="col s6 md12">
@@ -123,7 +106,7 @@ mysqli_close($db);
                         <h3><b><?php echo htmlspecialchars($post["title"]);?></b></h3>
                         <h5>Post created by: <?php echo htmlspecialchars($post["fname"]) . " " . htmlspecialchars($post["lname"]);?></h5>
                         <h6>Post ID: <?php echo htmlspecialchars($post["post_id"]);?></h6>
-                        <h6><?php echo htmlspecialchars($post["message"]);?></h6>
+                        <h6><?php echo htmlspecialchars($post["message"]);?></h6><br><br>
                     </div>
                 </div>
             </div>
